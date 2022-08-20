@@ -52,10 +52,10 @@
 
         left_layer {
             bindings = <
- &kp NUMBER_1  &kp NUMBER_2           &kp NUMBER_3                &kp NUMBER_4          &kp NUMBER_5     &kp NUMBER_6      &kp NUMBER_7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-       &trans        &trans  &mt LALT LEFT_BRACKET  &mt LEFT_GUI RIGHT_BRACKET  &mt LEFT_SHIFT GRAVE  &mt LSHFT MINUS    &mt LGUI EQUAL  &mt LALT BACKSLASH        &trans        &trans
-       &trans        &trans   &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS          &kp QUESTION    &kp LESS_THAN  &kp GREATER_THAN              &trans        &trans        &trans
-                                                                        &trans                &trans           &trans            &trans
+ &kp NUMBER_1                   &kp NUMBER_2            &kp NUMBER_3           &kp NUMBER_4          &kp NUMBER_5          &kp NUMBER_6      &kp NUMBER_7    &kp NUMBER_8                &kp NUMBER_9  &kp NUMBER_0
+       &trans  &mt LEFT_CONTROL LEFT_BRACKET  &mt LALT RIGHT_BRACKET     &mt LEFT_GUI GRAVE  &mt LEFT_SHIFT COLON  &mt LSHFT APOSTROPHE    &mt LGUI MINUS  &mt LALT EQUAL  &mt LEFT_CONTROL BACKSLASH        &trans
+       &trans                         &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp QUESTION         &kp LESS_THAN  &kp GREATER_THAN          &trans                      &trans        &trans
+                                                                                     &trans                &trans                &trans            &trans
             >;
         };
 
